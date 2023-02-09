@@ -279,88 +279,10 @@ insert into referees (contract_id, first_name, last_name, dob, nationality) valu
 insert into referees (contract_id, first_name, last_name, dob, nationality) values (14, 'Christy', 'Bulfit', '1989-01-22', 'Germany');
 insert into referees (contract_id, first_name, last_name, dob, nationality) values (15, 'Darryl', 'Lyster', '1999-01-26', 'Italy');
 
--- ************* Matches *************
--- 1st round
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-05', '1:00 PM', 'Liverpool', 'Arsenal', '2-1', 'Anfield', 3, 15, 13);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-05', '4:00 PM', 'West Ham', 'Manchester United', '0-2', 'London Stadium', 2, 14, 1);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-05', '7:00 PM', 'Manchester City', 'Chelsea', '1-1', 'Etihad Stadium', 5, 7, 12);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-06', '1:00 PM', 'Everton', 'Newcastle United', '1-3', 'Goodison Park', 8, 6, 1);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-06', '4:00 PM', 'Tottenham Hottspur', 'Nottingham Forest', '3-0', 'Tottenham Hotspur Stadium', 10, 9, 11);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-06', '7:00 PM', 'Brighton and Hove', 'Leeds United', '0-0', 'Amex Stadium' , 4, 3, 15);
--- 2nd round
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-10', '1:00 PM', 'Manchester United', 'Arsenal', '3-1', 'Old Trafford', 13, 2, 1);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-10', '4:00 PM', 'West Ham', 'Liverpool', '1-0', 'London Stadium', 4, 15, 5);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-10', '7:00 PM', 'Everton', 'Manchester City', '2-5', 'Goodison Park', 9, 3, 10);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-11', '1:00 PM', 'Chelsea', 'Newcastle United', '3-0', 'Stamford Bridge', 7, 8, 11);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-11', '4:00 PM', 'Tottenham Hottspur', 'Brighton and Hove', '2-2', 'Tottenham Hotspur Stadium', 6, 14, 12);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-11', '7:00 PM', 'Nottingham Forest', 'Leeds United', '4-3', 'City Ground', 3, 2, 1);
--- 3rd round
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-15', '1:00 PM', 'Liverpool', 'Manchester United', null, 'Anfield', 3, 15, 13);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-15', '4:00 PM', 'Arsenal', 'West Ham', null, 'Emirates Stadium', 2, 14, 1);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-15', '7:00 PM', 'Manchester City', 'Newcastle United', null, 'Etihad Stadium', 5, 7, 12);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-16', '1:00 PM', 'Chelsea', 'Tottenham Hottspur', null, 'Stamford Bridge', 8, 6, 1);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-16', '4:00 PM', 'Brighton and Hove', 'Nottingham Forest', null, 'Amex Stadium', 10, 9, 11);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-16', '7:00 PM', 'Leeds United', 'Everton', null, 'Elland Road' , 4, 3, 15);
--- 4th round
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-20', '1:00 PM', 'Tottenham Hottspur', 'Leeds United', null, 'Tottenham Hotspur Stadium', 4, 15, 5);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-20', '4:00 PM', 'Arsenal', 'Brighton and Hove', null, 'Emirates Stadium', 6, 2, 1);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-20', '7:00 PM', 'Newcastle United', 'Nottingham United', null, 'Goodison Park', 9, 3, 10);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-21', '1:00 PM', 'Manchester United', 'Everton', null, 'Old Trafford', 7, 8, 11);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-21', '4:00 PM', 'West Ham', 'Chelsea', null, 'London Stadium', 6, 14, 12);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-21', '7:00 PM', 'Manchester City', 'Liverpool', null, 'Etihad Stadium', 3, 2, 1);
--- 5th round
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-25', '1:00 PM', 'Manchester City', 'West Ham', null, 'Etihad Stadium', 6, 15, 3);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-25', '4:00 PM', 'Arsenal', 'Chelsea', null, 'Emirates Stadium', 8, 14, 1);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-25', '7:00 PM', 'Brighton and Hove', 'Newcastle United', null, 'Amex Stadium', 10, 9, 12);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-26', '1:00 PM', 'Leeds United', 'Manchester United', null, 'Elland Road', 8, 2, 1);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-26', '4:00 PM', 'Tottenham Hottspur', 'Liverpool', null, 'Tottenham Hottspur Stadium', 5, 7, 11);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-26', '7:00 PM', 'Everton', 'Nottingham Forest', null, 'Goodison Park' , 4, 3, 15);
--- 6th round
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-02', '1:00 PM', 'Manchester United', 'Chelsea', null, 'Old Trafford', 9, 2, 1);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-02', '4:00 PM', 'Newcastle United', 'West Ham', null, 'St. James Park', 14, 15, 10);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-02', '7:00 PM', 'Arsenal', 'Nottingham Forest', null, 'Emirates Stadium', 13, 3, 5);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-03', '1:00 PM', 'Everton', 'Tottenham Hottspur', null, 'Goodison Park', 7, 2, 11);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-03', '4:00 PM', 'Leeds United', 'Liverpool', null, 'Elland Road', 6, 4, 12);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-03', '7:00 PM', 'Brighton and Hove', 'Manchester City', null, 'Amex Stadium', 3, 8, 1); 
--- 7th round
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-07', '1:00 PM', 'Liverpool', 'Chelsea', null, 'Anfield', 3, 15, 13);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-07', '4:00 PM', 'Newcastle United', 'Arsenal', null, 'St. James Park', 2, 14, 1);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-07', '7:00 PM', 'West Ham', 'Nottingham Forest', null, 'London Stadium', 5, 7, 12);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-08', '1:00 PM', 'Tottenham Hottspur', 'Manchester United', null, 'Tottenham Hottspur Stadium', 8, 6, 1);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-08', '4:00 PM', 'Everton', 'Brighton and Hove', null, 'Goodison Park', 10, 9, 11);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-08', '7:00 PM', 'Manchester City', 'Leeds United', null, 'Etihad Stadium' , 4, 3, 15);
--- 8th round
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-12', '1:00 PM', 'Manchester United', 'Manchester City', null, 'Old Trafford', 13, 2, 1);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-12', '4:00 PM', 'Nottingham Forest', 'Liverpool', null, 'City Ground', 4, 15, 5);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-12', '7:00 PM', 'Brighton and Hove', 'West Ham', null, 'Amex Stadium', 9, 3, 10);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-13', '1:00 PM', 'Arsenal', 'Tottenham Hottspur', null, 'Emirates Stadium', 7, 8, 11);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-13', '4:00 PM', 'Leeds United', 'Newcastle United', null, 'Elland Road', 6, 14, 12);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-13', '7:00 PM', 'Chelsea', 'Everton', null, 'Stamford Bridge', 3, 2, 1);
--- 9th round
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-17', '1:00 PM', 'Liverpool', 'Everton', null, 'Anfield', 5, 12, 1);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-17', '4:00 PM', 'Arsenal', 'Leeds United', null, 'Emirates Stadium', 4, 15, 2);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-17', '7:00 PM', 'Tottenham Hottspur', 'West Ham', null, 'Tottenham Hottspur Stadium', 9, 3, 10);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-18', '1:00 PM', 'Manchester United', 'Newcastle United', null, 'Old Trafford', 7, 6, 11);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-18', '4:00 PM', 'Nottingham Forest', 'Manchester City', null, 'City Ground', 8, 14, 2);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-18', '7:00 PM', 'Chelsea', 'Brighton and Hove', null, 'Stamford Bridge', 3, 10, 1);
--- 10th round
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-22', '1:00 PM', 'Liverpool', 'Newcastle United', null, 'Anfield', 13, 2, 1);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-22', '4:00 PM', 'Everton', 'Arsenal', null, 'Goodison Park', 4, 15, 5);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-22', '7:00 PM', 'Leeds United', 'West Ham', null, 'Elland Road', 6, 3, 10);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-23', '1:00 PM', 'Manchester United', 'Brighton and Hove', null, 'Old Trafford', 7, 8, 11);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-23', '4:00 PM', 'Tottenham Hottspur', 'Manchester City', null, 'Tottenham Hottspur', 9, 14, 12);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-23', '7:00 PM', 'Chelsea', 'Nottingham Forest', null, 'Stamford Bridge', 3, 2, 1);
--- 11th round
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-22', '1:00 PM', 'Manchester City', 'Arsenal', null, 'Etihad Stadium', 13, 2, 1);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-22', '4:00 PM', 'West Ham', 'Everton', null, 'London Stadium', 4, 15, 5);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-22', '7:00 PM', 'Nottingham Forest', 'Manchester United', null, 'Old Trafford', 6, 3, 10);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-23', '1:00 PM', 'Newcastle United', 'Tottenham Hottspur', null, 'St. James Park', 7, 8, 11);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-23', '4:00 PM', 'Brighton and Hove', 'Liverpool', null, 'Amex Stadium', 9, 14, 12);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-23', '7:00 PM', 'Chelsea', 'Leeds United', null, 'Stamford Bridge', 3, 2, 1);
-
+-- ***************** players****************************
 insert into players (first_name, last_name, player_price, dob, nationality, position, mobile_number, contract_id, team_name) values ('Alisson', 'Becker', 60000000, '1992-10-02', 'Brazil', 'GK', 7334899717, 16,'Liverpool');
 insert into players (first_name, last_name, player_price, dob, nationality, position, mobile_number, contract_id, team_name) values ('Virgil', 'Van Dijk', 75000000, '1991-07-08', 'Netherlands', 'CB', 7432248425, 17,'Liverpool');
-insert into players (first_name, last_name, player_price, dob, nationality, position, mobile_number, contract_id, team_name) values ('Joel', 'Matip', 10000000, '1991-08-08', 'Germany', 'CB', 6234417256, 18,  'Liverpool');
+insert into players (first_name, last_name, player_price, dob, nationality, position, mobile_number, contract_id, team_name) values ('Joel', 'Matip', 10000000, '1991-08-08', 'Germany', 'CB', 6234417256, 18, 'Liverpool');
 insert into players (first_name, last_name, player_price, dob, nationality, position, mobile_number, contract_id, team_name) values ('Andy', 'Robertson', 80000000, '1994-03-11', 'England', 'LB', 2815930092, 19,  'Liverpool');
 insert into players (first_name, last_name, player_price, dob, nationality, position, mobile_number, contract_id, team_name) values ('Alexander-Arnold', 'Trent', 40000000, '1998-10-07', 'England', 'RB', 7645632661, 20,  'Liverpool');
 insert into players (first_name, last_name, player_price, dob, nationality, position, mobile_number, contract_id, team_name) values ('Fabinho', 'Tavares', 60000000, '1993-10-23', 'Brazil', 'CM', 9529560019, 21,  'Liverpool');
@@ -401,11 +323,11 @@ insert into players (first_name, last_name, player_price, dob, nationality, posi
 insert into players (first_name, last_name, player_price, dob, nationality, position, mobile_number, contract_id, team_name) values ('Scamacca', 'Gianluca', 30000000, '1999-01-01', 'Italy', 'FW', 4986065576, 56, 'West Ham');
 insert into players (first_name, last_name, player_price, dob, nationality, position, mobile_number, contract_id, team_name) values ('Antonio', 'Michail', 9000000, '1990-03-28', 'Jamaica', 'FW', 9609847247,57, 'West Ham');
 insert into players (first_name, last_name, player_price, dob, nationality, position, mobile_number, contract_id, team_name) values ('Ings', 'Danny', 16000000, '1992-07-23', 'England', 'FW', 9899595321, 58, 'West Ham');
-insert into players (first_name, last_name, player_price, dob, nationality, position, mobile_number, contract_id, team_name) values ('Soucek', 'Tomas', 45000000, '1995-02-27', 'Czech Republic', 'DM', 5623048674, 59, 'West Ham');
+insert into players (first_name, last_name, player_price, dob, nationality, position, mobile_number, contract_id, team_name) values ('Soucek', 'Tomas', 45000000, '1995-02-27', 'Czech Repulic', 'DM', 5623048674, 59, 'West Ham');
 insert into players (first_name, last_name, player_price, dob, nationality, position, mobile_number, contract_id, team_name) values ('Paqueta', 'Lucas', 45000000, '1997-08-27', 'Portugal', 'CM', 6875168183, 60, 'West Ham');
 insert into players (first_name, last_name, player_price, dob, nationality, position, mobile_number, contract_id, team_name) values ('David de Gea', 'Quintana', 15000000, '1990-11-7', ' Spain', 'GK', 3616312950, 61, 'Manchester United');
 insert into players (first_name, last_name, player_price, dob, nationality, position, mobile_number, contract_id, team_name) values ('Lisandro', 'Martinez', 50000000, '1998-01-18', 'Argentina', 'CB', 3155318853,62, 'Manchester United');
-insert into players (first_name, last_name, player_price, dob, nationality, position, mobile_number, contract_id, team_name) values ('Raphael', 'Varane', 40000000, '1993-04-25', 'France', 'CB', 5044979974, 63, 'Manchester United');
+insert into players (first_name, last_name, player_price, dob, nationality, position, mobile_number, contract_id, team_name) values ('Raphael', 'Varane', 40000000, 'b1993-04-25', 'France', 'CB', 5044979974, 63, 'Manchester United');
 insert into players (first_name, last_name, player_price, dob, nationality, position, mobile_number, contract_id, team_name) values ('Harry', 'Maguire', 30000000, '1993-05-05', 'England', 'CB', 9836068180, 64, 'Manchester United');
 insert into players (first_name, last_name, player_price, dob, nationality, position, mobile_number, contract_id, team_name) values ('Luke', 'Shaw', 28000000, '1995-07-12', 'England', 'LB', 7329858890, 65, 'Manchester United');
 insert into players (first_name, last_name, player_price, dob, nationality, position, mobile_number, contract_id, team_name) values ('Diago', 'Dalot', 32000000, '1999-03-18', 'Portugal', 'RB', 9992286280, 66, 'Manchester United');
@@ -511,11 +433,11 @@ insert into players (first_name, last_name, player_price, dob, nationality, posi
 insert into players (first_name, last_name, player_price, dob, nationality, position, mobile_number, contract_id, team_name) values ('Robert', 'Sanchez', 32000000, '1997-11-18', 'Spain', 'GK', 8618821231, 166, 'Brighton and Hove');
 insert into players (first_name, last_name, player_price, dob, nationality, position, mobile_number, contract_id, team_name) values ('Adam', 'Webster', 22000000, '1995-01-04', 'England', 'CB', 5519190616, 167, 'Brighton and Hove');
 insert into players (first_name, last_name, player_price, dob, nationality, position, mobile_number, contract_id, team_name) values ('Lewis', 'Dunk', 18000000, '1991-11-21', 'England', 'CB', 6771336518, 168, 'Brighton and Hove'); 
-insert into players (first_name, last_name, player_price, dob, nationality, position, mobile_number, contract_id, team_name) values ('Pervis', 'Estupinan', 20000000 '1998-01-21', 'Ecuador', 'LB', 5454665800, 169, 'Brighton and Hove');
+insert into players (first_name, last_name, player_price, dob, nationality, position, mobile_number, contract_id, team_name) values ('Pervis', 'Estupinan', 20000000, '1998-01-21', 'Ecuador', 'LB', 5454665800, 169, 'Brighton and Hove');
 insert into players (first_name, last_name, player_price, dob, nationality, position, mobile_number, contract_id, team_name) values ('Tariq', 'Lamptey', 15000000, '2000-09-30', 'Ghana', 'RB', 7057625817, 170, 'Brighton and Hove');
 insert into players (first_name, last_name, player_price, dob, nationality, position, mobile_number, contract_id, team_name) values ('Alexis', 'Mac Allister', 42000000, '1998-12-24', 'Argentina', 'CM', 3178531797, 171, 'Brighton and Hove');
 insert into players (first_name, last_name, player_price, dob, nationality, position, mobile_number, contract_id, team_name) values ('Moises', 'Caicedo', 38000000, '2001-11-02', 'Ecuador', 'CM', 8127429847, 172, 'Brighton and Hove');
-insert into players (first_name, last_name, player_price, dob, nationality, position, mobile_number, contract_id, team_name) values ('Jakub', 'Moder', 12000000, '1999-04-07', 'Poland', 'CM', 3058611288, 173, 'Brighton and Hove'ull);
+insert into players (first_name, last_name, player_price, dob, nationality, position, mobile_number, contract_id, team_name) values ('Jakub', 'Moder', 12000000, '1999-04-07', 'Poland', 'CM', 3058611288, 173, 'Brighton and Hove');
 insert into players (first_name, last_name, player_price, dob, nationality, position, mobile_number, contract_id, team_name) values ('Solly', 'March', 12000000, '1994-07-20', 'England', 'LM', 2336034735, 174, 'Brighton and Hove');
 insert into players (first_name, last_name, player_price, dob, nationality, position, mobile_number, contract_id, team_name) values ('Facundo', 'Buonanotte', 9000000, '2004-12-23', 'Argentina', 'AM', 8618821231, 175, 'Brighton and Hove');
 insert into players (first_name, last_name, player_price, dob, nationality, position, mobile_number, contract_id, team_name) values ('Danny', ' Wellbeck', 8000000, '1990-11-26', 'England', 'FW', 5519190616, 176, 'Brighton and Hove');
@@ -538,6 +460,42 @@ insert into players (first_name, last_name, player_price, dob, nationality, posi
 insert into players (first_name, last_name, player_price, dob, nationality, position, mobile_number, contract_id, team_name) values ('Georginio', 'Rutter', 16000000, '2002-04-20', 'France', 'FW', 8618821231, 193, 'Leeds United');
 insert into players (first_name, last_name, player_price, dob, nationality, position, mobile_number, contract_id, team_name) values ('Marc', 'Roca', 12000000, '1996-11-26', 'Spain', 'DM', 5519190616, 194, 'Leeds United');
 insert into players (first_name, last_name, player_price, dob, nationality, position, mobile_number, contract_id, team_name) values ('Adam', 'Forshaw', 18000000, '1991-10-08', 'England', 'CM', 5317592316, 195, 'Leeds United');
+-- ************* Transfer Market *************
+insert into awards (player_id, new_team, transfer_fee) values (37, 'Arsenal', 28000000);
+insert into awards (player_id, new_team, transfer_fee) values (18, 'Liverpool', 10000000);
+insert into awards (player_id, new_team, transfer_fee) values (51, 'West Ham', 12000000);
+insert into awards (player_id, new_team, transfer_fee) values (46, 'West Ham', 8000000);
+insert into awards (player_id, new_team, transfer_fee) values (77, 'Manchester City', 75000000);
+insert into awards (player_id, new_team, transfer_fee) values (124, 'Nottingham Forest', 22000000);
+insert into awards (player_id, new_team, transfer_fee) values (86, 'Manchester United', 80000000);
+insert into awards (player_id, new_team, transfer_fee) values (93, 'Chelsea', 65000000);
+insert into awards (player_id, new_team, transfer_fee) values (112, 'Everton', 35000000);
+insert into awards (player_id, new_team, transfer_fee) values (116, 'Tottenham Hotspur', 32000000);
+-- ************* Awards *************
+insert into awards (award_name, sponsor, prizes, player_id) values ('Player of the Season', 'EA Sports',  100000, 104);
+insert into awards (award_name, sponsor, prizes, player_id) values ('Goal of the Season', 'Budweiser', 50000, 92);
+insert into awards (award_name, sponsor, prizes, player_id) values ('Save of the Season', 'Castrol', 60000, 14);
+insert into awards (award_name, sponsor, prizes, player_id) values ('Golden Boot', 'Castrol', 130000, 67);
+insert into awards (award_name, sponsor, prizes, player_id) values ('Young Player of the Season', 'Hublot', 50000, 160);
+insert into awards (award_name, sponsor, prizes, player_id) values ('Manager of the Season', 'Barclays', 50000, 163);
+insert into awards (award_name, sponsor, prizes, player_id) values ('Golden Glove', 'Castrol', 100000, 15);
+insert into awards (award_name, sponsor, prizes, player_id) values ('Game Changer', 'Castrol', 10000, 134);
+insert into awards (award_name, sponsor, prizes, player_id) values ('Playmaker', 'Castrol', 20000, 28);
+insert into awards (award_name, sponsor, prizes, player_id) values ('Most Improbable Comeback', 'Oracle', 20000, 34);
+-- ************* Facilities *************
+insert into facilities (gym_room, recovery_center, team_name) values (1, 4, 'Liverpool');
+insert into facilities (gym_room, recovery_center, team_name) values (3, 1, 'Arsenal');
+insert into facilities (gym_room, recovery_center, team_name) values (1, 2, 'West Ham');
+insert into facilities (gym_room, recovery_center, team_name) values (4, 4, 'Manchester United');
+insert into facilities (gym_room, recovery_center, team_name) values (1, 1, 'Manchester City');
+insert into facilities (gym_room, recovery_center, team_name) values (5, 2, 'Chelsea');
+insert into facilities (gym_room, recovery_center, team_name) values (1, 4, 'Everton');
+insert into facilities (gym_room, recovery_center, team_name) values (4, 2, 'Newcastle United');
+insert into facilities (gym_room, recovery_center, team_name) values (3, 4, 'Tottenham Hotspur');
+insert into facilities (gym_room, recovery_center, team_name) values (5, 2, 'Nottingham Forest');
+insert into facilities (gym_room, recovery_center, team_name) values (4, 4, 'Brighton and Hove');
+insert into facilities (gym_room, recovery_center, team_name) values (3, 3, 'Leeds United');
+
 -- ************* Coaches *************
 insert into coaches (first_name, last_name, roles, contract_id, team_name, nationality) values ('Jurgen', 'Klopp', 'Head Coach', 196, 'Liverpool', 'Germany');
 insert into coaches (first_name, last_name, roles, contract_id, team_name, nationality) values ('Nikolaos', 'Pasmore', 'Assistant Coach', 197, 'Liverpool', 'England');
@@ -576,42 +534,148 @@ insert into coaches (first_name, last_name, roles, contract_id, team_name, natio
 insert into coaches (first_name, last_name, roles, contract_id, team_name, nationality) values ('Doretta', 'Windous', 'Assistant Coach', 230, 'Leeds United', 'England');
 insert into coaches (first_name, last_name, roles, contract_id, team_name, nationality) values ('Angus', 'Adams', 'Assistant Coach', 231, 'Leeds United', 'England');
 
--- ************* Facilities *************
-insert into facilities (gym_room, recovery_center, team_name) values (1, 4, 'Liverpool');
-insert into facilities (gym_room, recovery_center, team_name) values (3, 1, 'Arsenal');
-insert into facilities (gym_room, recovery_center, team_name) values (1, 2, 'West Ham');
-insert into facilities (gym_room, recovery_center, team_name) values (4, 4, 'Manchester United');
-insert into facilities (gym_room, recovery_center, team_name) values (1, 1, 'Manchester City');
-insert into facilities (gym_room, recovery_center, team_name) values (5, 2, 'Chelsea');
-insert into facilities (gym_room, recovery_center, team_name) values (1, 4, 'Everton');
-insert into facilities (gym_room, recovery_center, team_name) values (4, 2, 'Newcastle United');
-insert into facilities (gym_room, recovery_center, team_name) values (3, 4, 'Tottenham Hotspur');
-insert into facilities (gym_room, recovery_center, team_name) values (5, 2, 'Nottingham Forest');
-insert into facilities (gym_room, recovery_center, team_name) values (4, 4, 'Brighton and Hove');
-insert into facilities (gym_room, recovery_center, team_name) values (3, 3, 'Leeds United');
+-- ************* Matches *************
+-- 1st round
+
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-05', '1:00 PM', 'Liverpool', 'Arsenal', '2-1', 'Anfield', 3, 15, 13);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-05', '4:00 PM', 'West Ham', 'Manchester United', '0-2', 'London Stadium', 2, 14, 1);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-05', '7:00 PM', 'Manchester City', 'Chelsea', '1-1', 'Etihad Stadium', 5, 7, 12);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-06', '1:00 PM', 'Everton', 'Newcastle United', '1-3', 'Goodison Park', 8, 6, 1);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-06', '4:00 PM', 'Tottenham Hottspur', 'Nottingham Forest', '3-0', 'Tottenham Hotspur Stadium', 10, 9, 11);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-06', '7:00 PM', 'Brighton and Hove', 'Leeds United', '0-0', 'Amex Stadium' , 4, 3, 15);
+-- 2nd round
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-10', '1:00 PM', 'Manchester United', 'Arsenal', '3-1', 'Old Trafford', 13, 2, 1);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-10', '4:00 PM', 'West Ham', 'Liverpool', '1-0', 'London Stadium', 4, 15, 5);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-10', '7:00 PM', 'Everton', 'Manchester City', '2-5', 'Goodison Park', 9, 3, 10);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-11', '1:00 PM', 'Chelsea', 'Newcastle United', '3-0', 'Stamford Bridge', 7, 8, 11);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-11', '4:00 PM', 'Tottenham Hottspur', 'Brighton and Hove', '2-2', 'Tottenham Hotspur Stadium', 6, 14, 12);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-11', '7:00 PM', 'Nottingham Forest', 'Leeds United', '4-3', 'City Ground', 3, 2, 1);
+-- 3rd round
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-15', '1:00 PM', 'Liverpool', 'Manchester United', null, 'Anfield', 3, 15, 13);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-15', '4:00 PM', 'Arsenal', 'West Ham', null, 'Emirates Stadium', 2, 14, 1);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-15', '7:00 PM', 'Manchester City', 'Newcastle United', null, 'Etihad Stadium', 5, 7, 12);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-16', '1:00 PM', 'Chelsea', 'Tottenham Hottspur', null, 'Stamford Bridge', 8, 6, 1);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-16', '4:00 PM', 'Brighton and Hove', 'Nottingham Forest', null, 'Amex Stadium', 10, 9, 11);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-16', '7:00 PM', 'Leeds United', 'Everton', null, 'Elland Road' , 4, 3, 15);
+-- 4th round
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-20', '1:00 PM', 'Tottenham Hottspur', 'Leeds United', null, 'Tottenham Hotspur Stadium', 4, 15, 5);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-20', '4:00 PM', 'Arsenal', 'Brighton and Hove', null, 'Emirates Stadium', 6, 2, 1);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-20', '7:00 PM', 'Newcastle United', 'Nottingham United', null, 'Goodison Park', 9, 3, 10);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-21', '1:00 PM', 'Manchester United', 'Everton', null, 'Old Trafford', 7, 8, 11);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-21', '4:00 PM', 'West Ham', 'Chelsea', null, 'London Stadium', 6, 14, 12);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-21', '7:00 PM', 'Manchester City', 'Liverpool', null, 'Etihad Stadium', 3, 2, 1);
+-- 5th round
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-25', '1:00 PM', 'Manchester City', 'West Ham', null, 'Etihad Stadium', 6, 15, 3);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-25', '4:00 PM', 'Arsenal', 'Chelsea', null, 'Emirates Stadium', 8, 14, 1);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-25', '7:00 PM', 'Brighton and Hove', 'Newcastle United', null, 'Amex Stadium', 10, 9, 12);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-26', '1:00 PM', 'Leeds United', 'Manchester United', null, 'Elland Road', 8, 2, 1);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-26', '4:00 PM', 'Tottenham Hottspur', 'Liverpool', null, 'Tottenham Hottspur Stadium', 5, 7, 11);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-02-26', '7:00 PM', 'Everton', 'Nottingham Forest', null, 'Goodison Park' , 4, 3, 15);
+-- 6th round
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-02', '1:00 PM', 'Manchester United', 'Chelsea', null, 'Old Trafford', 9, 2, 1);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-02', '4:00 PM', 'Newcastle United', 'West Ham', null, 'St. James Park', 14, 15, 10);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-02', '7:00 PM', 'Arsenal', 'Nottingham Forest', null, 'Emirates Stadium', 13, 3, 5);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-03', '1:00 PM', 'Everton', 'Tottenham Hottspur', null, 'Goodison Park', 7, 2, 11);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-03', '4:00 PM', 'Leeds United', 'Liverpool', null, 'Elland Road', 6, 4, 12);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-03', '7:00 PM', 'Brighton and Hove', 'Manchester City', null, 'Amex Stadium', 3, 8, 1); 
+-- 7th round
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-07', '1:00 PM', 'Liverpool', 'Chelsea', null, 'Anfield', 3, 15, 13);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-07', '4:00 PM', 'Newcastle United', 'Arsenal', null, 'St. James Park', 2, 14, 1);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-07', '7:00 PM', 'West Ham', 'Nottingham Forest', null, 'London Stadium', 5, 7, 12);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-08', '1:00 PM', 'Tottenham Hottspur', 'Manchester United', null, 'Tottenham Hottspur Stadium', 8, 6, 1);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-08', '4:00 PM', 'Everton', 'Brighton and Hove', null, 'Goodison Park', 10, 9, 11);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-08', '7:00 PM', 'Manchester City', 'Leeds United', null, 'Etihad Stadium' , 4, 3, 15);
+-- 8th round
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-12', '1:00 PM', 'Manchester United', 'Manchester City', null, 'Old Trafford', 13, 2, 1);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-12', '4:00 PM', 'Nottingham Forest', 'Liverpool', null, 'City Ground', 4, 15, 5);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-12', '7:00 PM', 'Brighton and Hove', 'West Ham', null, 'Amex Stadium', 9, 3, 10);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-13', '1:00 PM', 'Arsenal', 'Tottenham Hottspur', null, 'Emirates Stadium', 7, 8, 11);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-13', '4:00 PM', 'Leeds United', 'Newcastle United', null, 'Elland Road', 6, 14, 12);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-13', '7:00 PM', 'Chelsea', 'Everton', null, 'Stamford Bridge', 3, 2, 1);
+-- 9th round
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-17', '1:00 PM', 'Liverpool', 'Everton', null, 'Anfield', 5, 12, 1);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-17', '4:00 PM', 'Arsenal', 'Leeds United', null, 'Emirates Stadium', 4, 15, 2);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-17', '7:00 PM', 'Tottenham Hottspur', 'West Ham', null, 'Tottenham Hottspur Stadium', 9, 3, 10);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-18', '1:00 PM', 'Manchester United', 'Newcastle United', null, 'Old Trafford', 7, 6, 11);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-18', '4:00 PM', 'Nottingham Forest', 'Manchester City', null, 'City Ground', 8, 14, 2);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-18', '7:00 PM', 'Chelsea', 'Brighton and Hove', null, 'Stamford Bridge', 3, 10, 1);
+-- 10th round
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-22', '1:00 PM', 'Liverpool', 'Newcastle United', null, 'Anfield', 13, 2, 1);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-22', '4:00 PM', 'Everton', 'Arsenal', null, 'Goodison Park', 4, 15, 5);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-22', '7:00 PM', 'Leeds United', 'West Ham', null, 'Elland Road', 6, 3, 10);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-23', '1:00 PM', 'Manchester United', 'Brighton and Hove', null, 'Old Trafford', 7, 8, 11);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-23', '4:00 PM', 'Tottenham Hottspur', 'Manchester City', null, 'Tottenham Hottspur', 9, 14, 12);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-23', '7:00 PM', 'Chelsea', 'Nottingham Forest', null, 'Stamford Bridge', 3, 2, 1);
+-- 11th round
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-22', '1:00 PM', 'Manchester City', 'Arsenal', null, 'Etihad Stadium', 13, 2, 1);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-22', '4:00 PM', 'West Ham', 'Everton', null, 'London Stadium', 4, 15, 5);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-22', '7:00 PM', 'Nottingham Forest', 'Manchester United', null, 'Old Trafford', 6, 3, 10);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-23', '1:00 PM', 'Newcastle United', 'Tottenham Hottspur', null, 'St. James Park', 7, 8, 11);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-23', '4:00 PM', 'Brighton and Hove', 'Liverpool', null, 'Amex Stadium', 9, 14, 12);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referre1_id, referre2_id, referre3_id) values ('2023-03-23', '7:00 PM', 'Chelsea', 'Leeds United', null, 'Stamford Bridge', 3, 2, 1);
 
 
--- ************* Awards *************
-insert into awards (award_name, sponsor, prizes, player_id) values ('Player of the Season', 'EA Sports',  100000, 104);
-insert into awards (award_name, sponsor, prizes, player_id) values ('Goal of the Season', 'Budweiser', 50000, 92);
-insert into awards (award_name, sponsor, prizes, player_id) values ('Save of the Season', 'Castrol', 60000, 14);
-insert into awards (award_name, sponsor, prizes, player_id) values ('Golden Boot', 'Castrol', 130000, 67);
-insert into awards (award_name, sponsor, prizes, player_id) values ('Young Player of the Season', 'Hublot', 50000, 160);
-insert into awards (award_name, sponsor, prizes, player_id) values ('Manager of the Season', 'Barclays', 50000, 163);
-insert into awards (award_name, sponsor, prizes, player_id) values ('Golden Glove', 'Castrol', 100000, 15);
-insert into awards (award_name, sponsor, prizes, player_id) values ('Game Changer', 'Castrol', 10000, 134);
-insert into awards (award_name, sponsor, prizes, player_id) values ('Playmaker', 'Castrol', 20000, 28);
-insert into awards (award_name, sponsor, prizes, player_id) values ('Most Improbable Comeback', 'Oracle', 20000, 34);
-
-
--- ************* Transfer Market *************
-insert into awards (player_id, new_team, transfer_fee) values (37, 'Arsenal', 28000000);
-insert into awards (player_id, new_team, transfer_fee) values (18, 'Liverpool', 10000000);
-insert into awards (player_id, new_team, transfer_fee) values (51, 'West Ham', 12000000);
-insert into awards (player_id, new_team, transfer_fee) values (46, 'West Ham', 8000000);
-insert into awards (player_id, new_team, transfer_fee) values (77, 'Manchester City', 75000000);
-insert into awards (player_id, new_team, transfer_fee) values (124, 'Nottingham Forest', 22000000);
-insert into awards (player_id, new_team, transfer_fee) values (86, 'Manchester United', 80000000);
-insert into awards (player_id, new_team, transfer_fee) values (93, 'Chelsea', 65000000);
-insert into awards (player_id, new_team, transfer_fee) values (112, 'Everton', 35000000);
-insert into awards (player_id, new_team, transfer_fee) values (116, 'Tottenham Hotspur', 32000000);
+-- ************* Stats *************
+-- for all matches in first round
+insert into stats (match_id, player_id, red_card, yellow_card, penalty_goals, normal_goals, assists) values (1, 9, 0, 0, 0, 1, 1);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty_goals, normal_goals, assists) values (1, 12, 0, 1, 1, 0, 0);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty_goals, normal_goals, assists) values (1, 24, 0, 0, 0, 1, 0);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty_goals, normal_goals, assists) values (1, 8, 1, 0, 0, 0, 0);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty_goals, normal_goals, assists) values (1, 11, 0, 1, 0, 0, 0);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty_goals, normal_goals, assists) values (2, 55, 0, 0, 0, 2, 0);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty_goals, normal_goals, assists) values (2, 56, 0, 1, 0, 0, 1);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty_goals, normal_goals, assists) values (2, 52, 0, 0, 0, 0, 1);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty_goals, normal_goals, assists) values (2, 53, 0, 1, 0, 0, 0);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty_goals, normal_goals, assists) values (3, 75, 0, 0, 0, 1, 0);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty_goals, normal_goals, assists) values (3, 70, 0, 0, 0, 0, 1);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty_goals, normal_goals, assists) values (3, 87, 0, 1, 0, 0, 1);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty_goals, normal_goals, assists) values (3, 88, 0, 0, 0, 1, 0);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty_goals, normal_goals, assists) values (3, 78, 1, 2, 0, 0, 0);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty_goals, normal_goals, assists) values (4, 101, 0, 0, 1, 0, 0);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty_goals, normal_goals, assists) values (4, 120, 0, 0, 0, 1, 1);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty_goals, normal_goals, assists) values (4, 113, 0, 1, 0, 1, 0);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty_goals, normal_goals, assists) values (4, 116, 0, 0, 0, 1, 1);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty_goals, normal_goals, assists) values (4, 111, 0, 1, 0, 0, 1);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty_goals, normal_goals, assists) values (4, 114, 0, 1, 0, 0, 0);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty_goals, normal_goals, assists) values (4, 118, 0, 1, 0, 0, 0);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty_goals, normal_goals, assists) values (5, 135, 0, 1, 1, 1, 1);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty_goals, normal_goals, assists) values (5, 134, 0, 0, 0, 1, 1);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty_goals, normal_goals, assists) values (5, 141, 0, 1, 0, 0, 0);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty_goals, normal_goals, assists) values (5, 146, 0, 1, 0, 0, 0);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty_goals, normal_goals, assists) values (5, 122, 0, 1, 0, 0, 0);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty_goals, normal_goals, assists) values (6, 172, 0, 1, 0, 0, 0);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty_goals, normal_goals, assists) values (6, 168, 0, 1, 0, 0, 0);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty_goals, normal_goals, assists) values (6, 155, 0, 1, 0, 0, 0);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty_goals, normal_goals, assists) values (6, 152, 0, 1, 0, 0, 0);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty_goals, normal_goals, assists) values (6, 164, 0, 1, 0, 0, 0);
+-- for all matches in second round
+insert into stats (match_id, player_id, red_card, yellow_card, penalty, normal_goals, assists) values (7, 55, 0, 0, 0, 2, 0);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty, normal_goals, assists) values (7, 54, 0, 1, 1, 0, 1);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty, normal_goals, assists) values (7, 20, 1, 0, 0, 0, 0);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty, normal_goals, assists) values (7, 25, 0, 1, 1, 0, 0);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty, normal_goals, assists) values (7, 52, 0, 1, 0, 0, 1);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty, normal_goals, assists) values (8, 6, 0, 0, 1, 0, 0);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty, normal_goals, assists) values (8, 1, 0, 1, 0, 0, 0);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty, normal_goals, assists) values (8, 37, 0, 0, 0, 1, 0);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty, normal_goals, assists) values (9, 70, 0, 0, 0, 2, 1);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty, normal_goals, assists) values (9, 71, 0, 0, 0, 2, 1);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty, normal_goals, assists) values (9, 75, 0, 1, 1, 0, 0);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty, normal_goals, assists) values (9, 99, 0, 0, 1, 1, 0);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty, normal_goals, assists) values (9, 105, 0, 0, 0, 0, 1);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty, normal_goals, assists) values (9, 103, 0, 1, 0, 0, 0);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty, normal_goals, assists) values (9, 102, 0, 2, 0, 0, 0);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty, normal_goals, assists) values (10, 87, 0, 0, 0, 1, 2);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty, normal_goals, assists) values (10, 88, 0, 0, 0, 2, 0);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty, normal_goals, assists) values (10, 108, 0, 1, 0, 0, 0);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty, normal_goals, assists) values (10, 112, 0, 1, 0, 0, 0);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty, normal_goals, assists) values (11, 129, 0, 0, 0, 2, 0);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty, normal_goals, assists) values (11, 132, 0, 0, 0, 0, 1);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty, normal_goals, assists) values (11, 130, 0, 1, 0, 0, 1);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty, normal_goals, assists) values (11, 156, 0, 0, 0, 2, 0);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty, normal_goals, assists) values (11, 164, 0, 1, 0, 0, 0);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty, normal_goals, assists) values (12, 145, 0, 0, 0, 1, 1);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty, normal_goals, assists) values (12, 149, 0, 0, 0, 0, 3);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty, normal_goals, assists) values (12, 150, 0, 1, 0, 0, 2);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty, normal_goals, assists) values (12, 176, 0, 1, 1, 1, 1);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty, normal_goals, assists) values (12, 178, 0, 1, 0, 2, 1);
+insert into stats (match_id, player_id, red_card, yellow_card, penalty, normal_goals, assists) values (12, 171, 0, 1, 0, 0, 0);
