@@ -7,7 +7,7 @@ insert into stadium (stadium_name, capacity, city) values ('Etihad Stadium', 534
 insert into stadium (stadium_name, capacity, city) values ('Stamford Bridge', 41837, 'Fulham');
 insert into stadium (stadium_name, capacity, city) values ('Goodison Park', 39572, 'Liverpool');
 insert into stadium (stadium_name, capacity, city) values ('St. James Park', 52000, 'Newcastle');
-insert into stadium (stadium_name, capacity, city) values ('Tottenham Hotspur Stadium', 62850, 'London');
+insert into stadium (stadium_name, capacity, city) values ('Tottenham Hottspur Stadium', 62850, 'London');
 insert into stadium (stadium_name, capacity, city) values ('City Ground', 30445, 'Nottinghamshire');
 insert into stadium (stadium_name, capacity, city) values ('Amex Stadium', 30750, 'Brighton');
 insert into stadium (stadium_name, capacity, city) values ('Elland Road', 37792, 'Leeds');
@@ -249,9 +249,9 @@ insert into contracts (start_hiring_date, end_hiring_date, salary, employer) val
 insert into contracts (start_hiring_date, end_hiring_date, salary, employer) values ('2020-05-23', '2025-03-10', 102155, 'Newcastle United');
 insert into contracts (start_hiring_date, end_hiring_date, salary, employer) values ('2022-09-04', '2025-11-08', 210072, 'Newcastle United');
 insert into contracts (start_hiring_date, end_hiring_date, salary, employer) values ('2022-03-23', '2026-08-16', 222528, 'Newcastle United');
-insert into contracts (start_hiring_date, end_hiring_date, salary, employer) values ('2021-12-21', '2024-05-12', 134063, 'Tottenham Hotspur');
-insert into contracts (start_hiring_date, end_hiring_date, salary, employer) values ('2021-09-16', '2027-06-10', 487423, 'Tottenham Hotspur');
-insert into contracts (start_hiring_date, end_hiring_date, salary, employer) values ('2021-09-22', '2026-11-14', 321353, 'Tottenham Hotspur');
+insert into contracts (start_hiring_date, end_hiring_date, salary, employer) values ('2021-12-21', '2024-05-12', 134063, 'Tottenham Hottspur');
+insert into contracts (start_hiring_date, end_hiring_date, salary, employer) values ('2021-09-16', '2027-06-10', 487423, 'Tottenham Hottspur');
+insert into contracts (start_hiring_date, end_hiring_date, salary, employer) values ('2021-09-22', '2026-11-14', 321353, 'Tottenham Hottspur');
 insert into contracts (start_hiring_date, end_hiring_date, salary, employer) values ('2019-10-13', '2026-02-07', 257288, 'Nottingham Forest');
 insert into contracts (start_hiring_date, end_hiring_date, salary, employer) values ('2019-10-11', '2024-04-17', 156367, 'Nottingham Forest');
 insert into contracts (start_hiring_date, end_hiring_date, salary, employer) values ('2020-01-28', '2024-04-17', 226801, 'Nottingham Forest');
@@ -470,7 +470,7 @@ insert into awards (player_id, new_team, transfer_fee) values (124, 'Nottingham 
 insert into awards (player_id, new_team, transfer_fee) values (86, 'Manchester United', 80000000);
 insert into awards (player_id, new_team, transfer_fee) values (93, 'Chelsea', 65000000);
 insert into awards (player_id, new_team, transfer_fee) values (112, 'Everton', 35000000);
-insert into awards (player_id, new_team, transfer_fee) values (116, 'Tottenham Hotspur', 32000000);
+insert into awards (player_id, new_team, transfer_fee) values (116, 'Tottenham Hottspur', 32000000);
 -- ************* Awards *************
 insert into awards (award_name, sponsor, prizes, player_id) values ('Player of the Season', 'EA Sports',  100000, 104);
 insert into awards (award_name, sponsor, prizes, player_id) values ('Goal of the Season', 'Budweiser', 50000, 92);
@@ -491,7 +491,7 @@ insert into facilities (gym_room, recovery_center, team_name) values (1, 1, 'Man
 insert into facilities (gym_room, recovery_center, team_name) values (5, 2, 'Chelsea');
 insert into facilities (gym_room, recovery_center, team_name) values (1, 4, 'Everton');
 insert into facilities (gym_room, recovery_center, team_name) values (4, 2, 'Newcastle United');
-insert into facilities (gym_room, recovery_center, team_name) values (3, 4, 'Tottenham Hotspur');
+insert into facilities (gym_room, recovery_center, team_name) values (3, 4, 'Tottenham Hottspur');
 insert into facilities (gym_room, recovery_center, team_name) values (5, 2, 'Nottingham Forest');
 insert into facilities (gym_room, recovery_center, team_name) values (4, 4, 'Brighton and Hove');
 insert into facilities (gym_room, recovery_center, team_name) values (3, 3, 'Leeds United');
@@ -541,14 +541,14 @@ insert into matches (match_start_date, match_time, home_team, away_team, result,
 insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referee1_id, referee2_id, referee3_id) values ('2023-02-05', '4:00 PM', 'West Ham', 'Manchester United', '0-2', 'London Stadium', 2, 14, 1);
 insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referee1_id, referee2_id, referee3_id) values ('2023-02-05', '7:00 PM', 'Manchester City', 'Chelsea', '1-1', 'Etihad Stadium', 5, 7, 12);
 insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referee1_id, referee2_id, referee3_id) values ('2023-02-06', '1:00 PM', 'Everton', 'Newcastle United', '1-3', 'Goodison Park', 8, 6, 1);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referee1_id, referee2_id, referee3_id) values ('2023-02-06', '4:00 PM', 'Tottenham Hottspur', 'Nottingham Forest', '3-0', 'Tottenham Hotspur Stadium', 10, 9, 11);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referee1_id, referee2_id, referee3_id) values ('2023-02-06', '4:00 PM', 'Tottenham Hottspur', 'Nottingham Forest', '3-0', 'Tottenham Hottspur Stadium', 10, 9, 11);
 insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referee1_id, referee2_id, referee3_id) values ('2023-02-06', '7:00 PM', 'Brighton and Hove', 'Leeds United', '0-0', 'Amex Stadium' , 4, 3, 15);
 -- 2nd round
 insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referee1_id, referee2_id, referee3_id) values ('2023-02-10', '1:00 PM', 'Manchester United', 'Arsenal', '3-1', 'Old Trafford', 13, 2, 1);
 insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referee1_id, referee2_id, referee3_id) values ('2023-02-10', '4:00 PM', 'West Ham', 'Liverpool', '1-0', 'London Stadium', 4, 15, 5);
 insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referee1_id, referee2_id, referee3_id) values ('2023-02-10', '7:00 PM', 'Everton', 'Manchester City', '2-5', 'Goodison Park', 9, 3, 10);
 insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referee1_id, referee2_id, referee3_id) values ('2023-02-11', '1:00 PM', 'Chelsea', 'Newcastle United', '3-0', 'Stamford Bridge', 7, 8, 11);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referee1_id, referee2_id, referee3_id) values ('2023-02-11', '4:00 PM', 'Tottenham Hottspur', 'Brighton and Hove', '2-2', 'Tottenham Hotspur Stadium', 6, 14, 12);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referee1_id, referee2_id, referee3_id) values ('2023-02-11', '4:00 PM', 'Tottenham Hottspur', 'Brighton and Hove', '2-2', 'Tottenham Hottspur Stadium', 6, 14, 12);
 insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referee1_id, referee2_id, referee3_id) values ('2023-02-11', '7:00 PM', 'Nottingham Forest', 'Leeds United', '4-3', 'City Ground', 3, 2, 1);
 -- 3rd round
 insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referee1_id, referee2_id, referee3_id) values ('2023-02-15', '1:00 PM', 'Liverpool', 'Manchester United', null, 'Anfield', 3, 15, 13);
@@ -558,7 +558,7 @@ insert into matches (match_start_date, match_time, home_team, away_team, result,
 insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referee1_id, referee2_id, referee3_id) values ('2023-02-16', '4:00 PM', 'Brighton and Hove', 'Nottingham Forest', null, 'Amex Stadium', 10, 9, 11);
 insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referee1_id, referee2_id, referee3_id) values ('2023-02-16', '7:00 PM', 'Leeds United', 'Everton', null, 'Elland Road' , 4, 3, 15);
 -- 4th round
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referee1_id, referee2_id, referee3_id) values ('2023-02-20', '1:00 PM', 'Tottenham Hottspur', 'Leeds United', null, 'Tottenham Hotspur Stadium', 4, 15, 5);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referee1_id, referee2_id, referee3_id) values ('2023-02-20', '1:00 PM', 'Tottenham Hottspur', 'Leeds United', null, 'Tottenham Hottspur Stadium', 4, 15, 5);
 insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referee1_id, referee2_id, referee3_id) values ('2023-02-20', '4:00 PM', 'Arsenal', 'Brighton and Hove', null, 'Emirates Stadium', 6, 2, 1);
 insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referee1_id, referee2_id, referee3_id) values ('2023-02-20', '7:00 PM', 'Newcastle United', 'Nottingham Forest', null, 'Goodison Park', 9, 3, 10);
 insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referee1_id, referee2_id, referee3_id) values ('2023-02-21', '1:00 PM', 'Manchester United', 'Everton', null, 'Old Trafford', 7, 8, 11);
@@ -604,7 +604,7 @@ insert into matches (match_start_date, match_time, home_team, away_team, result,
 insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referee1_id, referee2_id, referee3_id) values ('2023-03-22', '4:00 PM', 'Everton', 'Arsenal', null, 'Goodison Park', 4, 15, 5);
 insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referee1_id, referee2_id, referee3_id) values ('2023-03-22', '7:00 PM', 'Leeds United', 'West Ham', null, 'Elland Road', 6, 3, 10);
 insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referee1_id, referee2_id, referee3_id) values ('2023-03-23', '1:00 PM', 'Manchester United', 'Brighton and Hove', null, 'Old Trafford', 7, 8, 11);
-insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referee1_id, referee2_id, referee3_id) values ('2023-03-23', '4:00 PM', 'Tottenham Hottspur', 'Manchester City', null, 'Tottenham Hottspur', 9, 14, 12);
+insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referee1_id, referee2_id, referee3_id) values ('2023-03-23', '4:00 PM', 'Tottenham Hottspur', 'Manchester City', null, 'Tottenham Hottspur Stadium', 9, 14, 12);
 insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referee1_id, referee2_id, referee3_id) values ('2023-03-23', '7:00 PM', 'Chelsea', 'Nottingham Forest', null, 'Stamford Bridge', 3, 2, 1);
 -- 11th round
 insert into matches (match_start_date, match_time, home_team, away_team, result, stadium, referee1_id, referee2_id, referee3_id) values ('2023-03-22', '1:00 PM', 'Manchester City', 'Arsenal', null, 'Etihad Stadium', 13, 2, 1);
